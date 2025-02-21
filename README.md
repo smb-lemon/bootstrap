@@ -37,3 +37,64 @@ Examples:
 <button type="button" class="btn btn-danger">Danger</button>
 <button type="button" class="btn btn-warning">Warning</button>
 ```
+
+### Button Group
+
+Group a series of buttons together on a single line or stack 
+them in a vertical column.
+```html
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+  <button type="button" class="btn btn-outline-primary">Left</button>
+  <button type="button" class="btn btn-outline-primary">Middle</button>
+  <button type="button" class="btn btn-outline-primary">Right</button>
+</div>
+```
+
+### Bedges
+
+Bedges are used to add how many notification or message etc are there.
+ Examples:
+
+<button type="button" class="btn btn-primary">
+    Notifications <span class="badge text-bg-secondary">+6</span>
+    </button> <br>
+    
+```html
+    <button type="button" class="btn btn-primary">
+    Notifications <span class="badge text-bg-secondary">4</span>
+    </button>
+```
+
+<button type="button" class="btn btn-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+
+```html
+<button type="button" class="btn btn-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+```
+
+### Alerts
+
+Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages
+
+```html
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert—check it out!
+</div>
+```
