@@ -249,11 +249,31 @@ Examples:
 </div>
 ``` 
 ### Form Control
-Give textual form controls like <input>s and <textarea>s an upgrade with custom styles, sizing, focus states, and more.
+Give textual form controls like `<input>`s and `<textarea>`s an upgrade with custom styles, sizing, focus states, and more.
 
 Example:
 ```html
 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
 <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+```
+### Select in Form
+
+Customize the native `<select>`s with custom CSS that changes the element’s initial appearance.
+
+Ex:
+```html
+<select class="form-select form-select-lg mb-3" aria-label="Large select example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+
+<select class="form-select form-select-sm" aria-label="Small select example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
 ```
